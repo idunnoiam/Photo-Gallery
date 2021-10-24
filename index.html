@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h3>
+
+
+        <center>
+            <ul class="menu1">
+                <li class="links"><a href="#home">Home</a></li>
+                <li class="links"><a href="#Grids">Grid view</a></li>
+                <li class="links"><a href="#slides">Slide view</a></li>
+
+            </ul>
+        </center>
+    </h3>
+
+
+    <div class="container">
+        <section id="home">
+            <div class="page-header">
+                <h2 class="text-capitalize"></h2>
+                <img id="img1" src="Cat.gif" class="img-responsive">
+            </div>
+        </section>
+        <!---->
+        <hr style="width: 100%;">
+        <section id="Grids">
+            <h2> Grid gallery</h2>
+            <br>
+            <script src=""></script>
+            <div class="row">
+                <img class="img2" src="Ryukjpg.jpg">
+                <img class="img2" src="RC.jpg">
+                <img class="img2" src="coffee jelly.jpg">
+                <img class="img2" src="Bob Ross.jpg">
+                <br><br>
+            </div>
+            <div class="row">
+                <img class="img2" src="Jeffy.gif">
+                <img class="img2" src="jeffy2.gif">
+                <img class="img2" src="Rick Roll.gif">
+                <img class="img2" src="Call of Duty.jpg">
+            </div>
+
+        </section>
+
+        <br>
+        <br>
+        <hr style="width: 100%;">
+
+
+        <!-- Left and right controls -->
+        <section id="slides">
+            <h2>Sliding gallery</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                    <div class="item">
+                        <img class="img-responsive" src="Ryukjpg.jpg" alt="Blue" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>ryuk</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="item active">
+                        <img class="img-responsive" src="RC.jpg" alt="Orange" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Rick Man</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img class="img-responsive" src="coffee jelly.jpg" alt="Pink" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Coffee Jelly</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="Bob Ross.jpg" alt="Purple" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Bob Ross</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="Jeffy.gif" alt="Red" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Jeffy</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="Jeffy2.gif" alt="Violet" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Jeffy2 Smacking his pee pee</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="Rick Roll.gif" alt="White" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Get Rick Rolled sukkkkaaaaaaaaaaaaa</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="Call of Duty.jpg" alt="Yellow" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Call of Duty</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
